@@ -1,4 +1,4 @@
-def fizzbuzz(number):
+def fizzbuzz(numbers):
     for num in range(1,1000):
         string = ""
         if num % 3 == 0:
