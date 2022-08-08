@@ -3,8 +3,10 @@ def fizzbuzz(number):
         string = ""
         if num % 3 == 0:
             string = string + "Fizz"
+            print(string)
         if num % 5 == 0:
             string = string + "Buzz"
+            print(string)
         if num % 3 == 0 and num % 5 == 0:
             string = string + "FizzBuzz"
-        print(string)
+            print(string)
